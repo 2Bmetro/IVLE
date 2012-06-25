@@ -13,10 +13,21 @@ using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
-namespace IVLE
+namespace mockup
 {
     public partial class App : Application
     {
+        // token
+        public String token { get; set; }
+
+        // list of module information shown on the MenuPage
+        public List<Module> modules { get; set;}
+        // list of timetable information shown on the MenuPage
+        public List<Class> classes { get; set; }
+        // list of todo information shown on the MenuPage
+        public List<Todo> todos { get; set; }
+
+
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>

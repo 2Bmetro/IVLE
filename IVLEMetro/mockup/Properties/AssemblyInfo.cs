@@ -6,12 +6,12 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IVLE")]
+[assembly: AssemblyTitle("mockup")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IVLE")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
+[assembly: AssemblyCompany("Hewlett-Packard")]
+[assembly: AssemblyProduct("mockup")]
+[assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -21,7 +21,7 @@ using System.Resources;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ca7f30f7-8164-4e0e-94ba-1f62a7c07a24")]
+[assembly: Guid("2d5da1e0-1dde-4d96-a450-710271bd89e9")]
 
 // Version information for an assembly consists of the following four values:
 //

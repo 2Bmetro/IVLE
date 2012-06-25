@@ -11,12 +11,11 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace IVLE
+namespace mockup
 {
-    public partial class MainPage : PhoneApplicationPage
+    public partial class AnnouncementPage : PhoneApplicationPage
     {
-        // Constructor
-        public MainPage()
+        public AnnouncementPage()
         {
             InitializeComponent();
         }
