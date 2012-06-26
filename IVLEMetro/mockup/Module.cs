@@ -25,6 +25,5 @@ namespace mockup
             moduleDescrip = descrip;
             latestAnnouncement = announce;
         }
-
     }
 }
