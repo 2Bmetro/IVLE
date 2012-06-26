@@ -8,6 +8,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
+using System.IO;
 //----------------------------
 using System.IO.StreamReader;
 using Newtonsoft.Json;
@@ -61,7 +62,7 @@ namespace mockup
             request.BeginGetResponse(new AsyncCallback(HandleResponse), request);
         }
 
-        // hadle the response and get the json string
+        // handle the response and get the json string
         public void HandleResponse(IAsyncResult result)
         {
             HttpWebRequest request = result.AsyncState as HttpWebRequest;
